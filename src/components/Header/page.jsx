@@ -1,13 +1,9 @@
-import Navbar from '@/components/Navbar/page'
 import Slate from '@/assets/slate.svg'
 import Image from 'next/image'
 export default function Header() {
     return (
         <>
             <div className='max-w-7xl m-auto'>
-                <div className='flex justify-center'>
-                    <Navbar />
-                </div>
                 <div className='h-96 flex flex-col items-center justify-center'>
                     <h1 className='text-7xl'>The Best<span className='text-7xl'> Digital</span></h1>
                     <div className="flex items-center">
