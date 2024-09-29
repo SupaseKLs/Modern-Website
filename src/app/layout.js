@@ -24,7 +24,11 @@ export default function RootLayout({ children }) {
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <div className='max-w-7xl m-auto'>
           <div className='flex justify-center'>
+<<<<<<< HEAD
             <Navbar className="z-90 " />
+=======
+            <Navbar />
+>>>>>>> 574091bd4e829d169cc54d7392e62471ae4e64f9
           </div>
           {children}
         </div>
