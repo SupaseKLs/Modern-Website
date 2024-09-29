@@ -1,7 +1,6 @@
 'use client'
 import Image from "next/image";
-import Link from "next/link";
-import { motion } from "framer-motion"; // Import motion
+import { motion } from "framer-motion"; 
 import Logo from '@/assets/star.svg';
 
 const links = [
@@ -13,7 +12,7 @@ const links = [
 
 export default function Navbar() {
     return (
-        <nav className="w-fit mt-4 px-2 border border-white/20 rounded-full backdrop-blur-md bg-white/[0.04]">
+        <nav className="w-fit mt-10 px-2 border border-white/20 rounded-full backdrop-blur-md bg-white/[0.04]">
             <div className="flex justify-center py-2 px-10">
                 <div>
                     <Image width={50} height={50} src={Logo} />
